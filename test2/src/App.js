@@ -61,7 +61,7 @@ function App() {
         setNewCode(e.target.value)
     }
     return (
-        <div className="App">
+        <div className="App" style={{textAlign:"left"}}>
             <React.Fragment>
                 <CssBaseline />
                 <Container maxWidth="lg">
