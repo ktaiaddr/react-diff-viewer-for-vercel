@@ -83,7 +83,7 @@ function App() {
                         disableWordDiff={false}
                         hideLineNumbers={true}
                         showDiffOnly={false}
-                        leftTitle={`変更前`}
+                        leftTitle={`変更前a`}
                         rightTitle={`変更前`}
                         useDarkTheme={false}
                     />

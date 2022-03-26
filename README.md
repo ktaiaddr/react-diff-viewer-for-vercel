@@ -31,15 +31,17 @@ bash compose_up.sh
 
 ### コンテナに接続
 ```bash
+bash loginnode.sh
 
 #インストール
-cd next_front
+cd react
 npm install
 
 #実行
 npm run start
-
-###初回作成時
+```
+###※初回作成時
+```bash
 #タイプスクリプトのテンプレートでnextアップを立ち上げ
 npx create-next-app --example with-typescript next_front
 #muiのテンプレートを取りこみ
